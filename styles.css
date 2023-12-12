@@ -1,0 +1,164 @@
+/** {
+    border: 1px solid red;
+}*/
+
+body {
+    position: fixed;
+}
+
+.info {
+    padding-left: 48%;
+    padding-right: 50px;
+    padding-top: 5%;
+    
+}
+
+    
+.contents {
+    position: absolute;
+    border:1px solid lightgray;
+    width: 380px;
+    height: 300px;
+    padding-left: 30px;
+    margin-left: 60px;
+    
+}   
+
+
+h1 {
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+}
+
+h4 {
+    font-weight: 50;
+    font-size: 14px;
+}
+
+input {
+    width: 350px;
+    height: 25px;
+    font-size: 80%;
+    padding-left: 1%;
+    border-style: groove;
+    border-width: thin;
+    border-radius: 3px;
+    margin-top: 2px
+}
+
+.password {
+    display: inline-flex;
+    margin-bottom: 5px;
+}
+
+#forgot-password {
+    padding-left: 39%;
+    text-decoration: none;
+    color: blue
+}
+
+#password {
+    padding-left: 10%;
+    font-size: 15px;
+    
+}
+
+#sign-in {
+    font-size: 25px;
+    margin-top: .3em;
+    margin-bottom: .01em
+}
+
+#continue {
+    width: 356px;
+    height: 30px;
+    border-radius: 2px;
+    background-color: rgb(233, 206, 73);
+    border-width: thin;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    border-color: rgb(245, 173, 66);
+}
+
+#email-text {
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+
+#help {
+    text-decoration: none;
+    padding-top: 10px;
+    color: blue;
+    
+}
+
+#triangle {
+    text-decoration: none;
+    font-size: 9px;
+    padding-left: 25px;
+    color: blue
+}
+
+.create_account {
+    padding-top: 310px;
+    text-align: center;
+    padding-left: 490px
+}
+
+#new_2_amazon {
+   width: 97%; 
+   text-align: center; 
+   border-bottom: 1px solid #000; 
+   line-height: 0.1em;
+   color: gray;
+   border-color: gray;
+   margin-left: 10px;
+   
+}
+
+h4 span {
+    background: #fff;
+    padding: 0 10px;
+   
+}
+
+#create_button {
+    width: 375px;
+    height: 30px;
+    margin-left: 9px;
+    border-radius: 2px;
+    border-width: thin;
+    border-color: lightgray;
+    
+}
+
+.footer {
+    padding-left: 500px;
+    padding-top: 50px;
+    border-top: 1px solid lightgrey;
+    border-width: 2px;
+    margin-top: 50px;
+    position: absolute;
+    width: 100%
+}
+
+.footer_links {
+    text-decoration: none;
+    color: blue;
+
+}
+
+.footer_contents {
+    margin-top: -1em;
+    margin-left: -30px;
+    font-size: 13px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 400px
+}
+
+#copywrite {
+    padding-top: 40px;
+    margin-left: -340px
+}
